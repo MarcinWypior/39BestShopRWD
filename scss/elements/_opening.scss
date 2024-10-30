@@ -27,11 +27,12 @@
     align-items: center;
     border-radius: 30px;
     color: white;
-    font-weight: 800;
+    font-weight: 700;
   }
 
   &__image {
     width: 100px;
     height: 100px;
+    background-image: url("../");
   }
 }
