@@ -1,0 +1,37 @@
+.opening {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 7%;
+
+  &__title {
+    font-size: 49px;
+    margin: 10px;
+    font-weight: 400;
+  }
+
+  &__subtitle {
+    font-size: 16px;
+    margin: 10px;
+  }
+
+  &__button {
+    margin: 20px;
+    width: 440px;
+    height: 67px;
+    font-size: 16px;
+    background-color: $color-primary;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    color: white;
+    font-weight: 800;
+  }
+
+  &__image {
+    width: 100px;
+    height: 100px;
+  }
+}
