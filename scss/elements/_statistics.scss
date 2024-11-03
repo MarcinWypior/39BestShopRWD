@@ -101,8 +101,12 @@
   }
 
   &__single_text {
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: 5px;
   }
   &__single_subtext {
+    font-size: 14px;
     margin: 6px;
     color: $color-grey;
   }
