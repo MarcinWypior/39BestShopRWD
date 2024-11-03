@@ -31,7 +31,7 @@
     justify-content: flex-start;
   }
 
-  &__circle {
+  &__circle1 {
     display: block;
     position: relative;
     box-sizing: border-box;
@@ -50,6 +50,52 @@
       height: 200px;
 
       background-image: url("../../icons/person.svg");
+      background-repeat: no-repeat;
+    }
+  }
+
+  &__circle2 {
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+    width: 10vh;
+    height: 10vh;
+    background-color: blue;
+    border-radius: 50%;
+    margin: 15px 0;
+
+    &::after {
+      position: absolute;
+      left: 30px;
+      top: 0;
+      content: " ";
+      width: 200px;
+      height: 200px;
+
+      background-image: url("../../icons/eye.svg");
+      background-repeat: no-repeat;
+    }
+  }
+
+  &__circle3 {
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+    width: 10vh;
+    height: 10vh;
+    background-color: green;
+    border-radius: 50%;
+    margin: 15px 0;
+
+    &::after {
+      position: absolute;
+      left: 30px;
+      top: 0;
+      content: " ";
+      width: 200px;
+      height: 200px;
+
+      background-image: url("../../icons/Catalog.svg");
       background-repeat: no-repeat;
     }
   }
