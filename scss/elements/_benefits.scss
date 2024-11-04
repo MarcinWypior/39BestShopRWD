@@ -86,6 +86,19 @@
     }
   }
 
+  &__img2 {
+    background-color: green;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 80%;
+    height: 100%;
+    @include mobile {
+      margin: 0 auto;
+    }
+  }
+
   &__picture {
     position: absolute;
     bottom: 0;
