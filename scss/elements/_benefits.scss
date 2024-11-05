@@ -1,6 +1,6 @@
 .container {
   max-width: 1352px;
-  width: 100vw;
+  width: 97vw;
   // margin: 0 auto;
 }
 .benefits {
@@ -105,13 +105,13 @@
   }
 
   &__img2 {
-    margin-left: 20%;
+    margin-left: 10%;
     background-color: green;
     border-radius: 10px;
     display: flex;
     justify-content: center;
     position: relative;
-    width: 80%;
+    width: 70%;
     height: 100%;
     @include mobile {
       margin: 0 auto;
