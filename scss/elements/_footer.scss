@@ -1,0 +1,16 @@
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+.checkbox_test {
+  display: none;
+}
+
+.checkbox_test:checked::after {
+  display: block;
+  font-size: 30px;
+  position: absolute;
+  bottom: 30px;
+  content: "something";
+}

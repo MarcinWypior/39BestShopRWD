@@ -197,8 +197,8 @@
           <p class="contact__title">Any questions?</p>
           <p class="contact__subtitle">Leave your email address or contact us!</p>
           <div class="contact__data">
-          <span class="contact__email"><i class="fa-regular fa-envelope"></i> <a class="link_underline" href="tel:mail@mail.pl">email@new.eu</a> </span>
-          <span class="contact__tel"><i class="fa-solid fa-phone"></i></i><a  href="tel:mail@mail.pl">123456789</a>  </span>
+          <span class="contact_tel"><i class="fa-solid fa-envelope"></i></i><a  href="mailto:mail@mail.pl">mail@mail.pl</a>  </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <span class="contact_tel"><i class="fa-solid fa-phone"></i></i><a  href="tel:12345678">123456789</a>  </span>
         </div>
         </div>
         <div class="contact__form__column">
@@ -210,14 +210,21 @@
               </label>
             <input class="contact__form_email" type="text">
             <br>
-            <input type="checkbox" id="check">
+            <div class="contact__container__check">
+            <input class="contact__form_checked" type="checkbox" id="check" >
             <br>
-            <label class="contact__label__check" for="check">I hereby give consent for my personal data included in my application to be processed for the purposes of the recruitment process under the European Parliament’s and Council of the European Union Regulation on the Protection of Natural Persons as of 27 April 2016, with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (Data Protection Directive)</label>
-            <button>Send</button>
+            <label class="contact__label__check" for="check">
+              I hereby give consent for my personal data included in my application to be processed for the purposes of the recruitment process under the European Parliament’s and Council of the European Union Regulation on the Protection of Natural Persons as of 27 April 2016, with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (Data Protection Directive)</label>
+            </div>
+            <button type="submit" class="contact__button">Send</button>
           </form>
           
         </div>
       </section>
     </main>
+    <footer>
+      <label class="label_test" for="checked1">label label</label>
+      <input class="checkbox_test" type="checkbox" id="checked1">
+    </footer>
   </body>
 </html>
