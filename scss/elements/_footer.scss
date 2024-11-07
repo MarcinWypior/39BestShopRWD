@@ -1,0 +1,35 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: end;
+  padding: 20px 20px;
+  box-shadow: 0 -5px 40px #00000029;
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+  }
+
+  &__main__info {
+    color: #08a6e4;
+    font-size: 2rem;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: 200;
+  }
+
+  &__sub__info {
+    color: gray;
+    font-size: 0.7rem;
+  }
+
+  &__icons {
+    align-self: center;
+
+    a {
+      margin: 10px;
+    }
+  }
+}
