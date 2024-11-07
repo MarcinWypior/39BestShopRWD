@@ -151,27 +151,35 @@
     }
   }
 
-  &__form_checked {
-    // display: none;
-    display: inline;
+  &__form__checked {
+    display: none;
     width: 30px;
     height: 30px;
     margin-right: 20px;
   }
 
-  &__form_checked:checked {
-    display: inline-block;
+  &__custom__label {
+    position: relative;
+    display: block;
     background: white;
-    // content: " ";
-    // display: block;
-    // width: 40px;
-    // height: 40px;
-    // border: 4px solid black;
-    // border-radius: 4px;
+    width: 40px;
+    height: 40px;
+    border: 4px solid black;
+    border-radius: 4px;
   }
 
+  &__form__checked:checked ~ &__custom__label {
+    position: relative;
+    background: gray;
+    display: block;
+    width: 40px;
+    height: 40px;
+    border: 4px solid black;
+    border-radius: 4px;
+  }
   &__container__check {
     display: flex;
     flex-direction: row;
+    gap: 25px;
   }
 }
