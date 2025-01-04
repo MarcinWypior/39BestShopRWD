@@ -11,6 +11,7 @@
     flex-direction: column;
     justify-content: flex-start;
     gap: 10px;
+    margin-bottom: 100px;
   }
 
   &__info {
@@ -111,7 +112,9 @@
   }
 
   &__label__check {
-    display: inline;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
     color: gray;
     font-size: 12px;
     width: 100%;
@@ -162,6 +165,7 @@
   }
 
   &__custom__label {
+    flex-basis: 100px;
     position: relative;
     display: block;
     background: white;
@@ -188,13 +192,13 @@
     z-index: 1;
   }
 
-  &__form__checked:checked ~ &__custom__label &__checked__mark {
+  &__form__checked:checked ~ &__label__check &__custom__label &__checked__mark {
     position: absolute;
     top: 50%;
     right: 47%;
     transform: translate(50%, -50%);
     font-size: 20px;
-    color: blue;
+    color: rgb(12, 12, 12);
     display: inline-block;
     width: 20px;
     height: 20px;
